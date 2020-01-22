@@ -2,7 +2,7 @@ import psutil
 import os
 import win32serviceutil
 #Python 2.7
-services = ['MSSQL$SQLEXPRESS', 'SQLTELEMETRY$SQLEXPRESS', 'MySQL80']
+services = ['MSSQL$SQLEXPRESS', 'SQLTELEMETRY$SQLEXPRESS', 'MySQL80'] #service names
 
 def getService(name):
     service = None
